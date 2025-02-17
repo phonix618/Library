@@ -30,6 +30,7 @@ func main() {
 			return
 		default:
 			fmt.Println("Invalid Number :( ")
+			return
 		}
 	}
 
