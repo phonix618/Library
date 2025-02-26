@@ -38,11 +38,11 @@ func main() {
 func addBook() {
 	var title, author, year string
 	fmt.Print("Enter Title:")
-	fmt.Scanln(&title)
+	fmt.Scan(&title)
 	fmt.Print("Enter Author:")
-	fmt.Scanln(&author)
+	fmt.Scan(&author)
 	fmt.Print("Enter Year:")
-	fmt.Scanln(&year)
+	fmt.Scan(&year)
 	books = append(books, []string{title, author, year})
 	fmt.Println("Books Added!")
 }
